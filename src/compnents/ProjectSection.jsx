@@ -34,7 +34,7 @@ export const ProjectSection = () => {
                     Featured <span className="text-primary">Projects</span>
                 </h2>
 
-                <div className="grid grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {projects.map((project, key) => (
                         <div key={key} className="bg-card rounded-lg shadow-xs overflow-hidden card-hover flex flex-col">
 
